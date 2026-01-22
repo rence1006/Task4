@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      width: 100%;
+      border: 1px solid black;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    th {
+      background-color: #4CAF50; 
+      color: white;              
+      font-size: 18px;           
+    }
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      width: 50%;      
+      margin: 20px auto; 
+      padding: 20px;
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input[type="text"] {
+      width: 100%;      
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>ID Number</th>
+    <th>Name</th>
+    <th>Course</th>
+    <th>Schedule</th>
+  </tr>
+  <tr>
+    <td>402856</td>
+    <td>Clarence</td>
+    <td>BSCS</td>
+    <td>Morning</td>
+  </tr>
+  <tr>
+     <td>305847</td>
+    <td>Mark</td>
+    <td>Nursing</td>
+    <td>Evening</td>
+  </tr>
+  <tr>
+     <td>103857</td>
+    <td>Jobert</td>
+    <td>Home Economics</td>
+    <td>Evening</td>
+  </tr>
+  <tr>
+     <td>305837</td>
+    <td>Patrick</td>
+    <td>Multimedia</td>
+    <td>Morning</td>
+  </tr>
+  <tr>
+     <td>385736</td>
+    <td>Kenneth</td>
+    <td>IT</td>
+    <td>Evening</td>
+  </tr>
+</table>
+
+<h2>HTML Form</h2>
+
+<form>
+  <label for="idnumber">ID Number:</label>
+  <input type="text" id="idnumber" name="idnumber">
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+
+  <label for="course">Course:</label>
+  <input type="text" id="course" name="course">
+
+  <label for="schedule">Schedule:</label>
+  <input type="text" id="schedule" name="schedule">
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
